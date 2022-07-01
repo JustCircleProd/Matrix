@@ -62,7 +62,7 @@ if __name__ != '__main__':
             makeAssociativeMatrix(self)
             makeInvertibleMatrix(self)
 
-        Author: Vadim Karchagin
+        Author: VadimKarch (JustCircle)
         '''
 
 
