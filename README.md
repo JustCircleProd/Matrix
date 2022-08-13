@@ -7,66 +7,66 @@ This is my old course project, so the module will not be updated (uploaded just 
 
 **Author: VadimKarch (JustCircle).**
 
-                The matrix class is based on the standard list. 
-                
-                Contains overload methods:
+    The matrix class is based on the standard list. 
 
-                  __init__(self, **kwargs)
-                  __setattr__(self, attr, value)
-                  __getitem__(self, row)
-                  __setitem__(self, row)
-                  __delitem__(self, row)
-                  __str__(self)
-                  __iter__(self)
-                  __add__(self, other, needToReturn=True), __radd__(self, other, needToReturn=True), __iadd__(self, other, needToReturn=True)
-                  __sub__(self, other, needToReturn=True), __rsub__(self, other, needToReturn=True), __isub__(self, other, needToReturn=True)
-                  __mul__(self, other, needToReturn=True), __rmul__(self, other, needToReturn=True), __imul__(self, other, needToReturn=True)
-                 and other methods:
-                 
-                static:
-                  createMatrix(matrix)
-                  createZeroMatrix(rows, columns)
-                  readMatrixFromFile(nameOfFile)
-                
-                others:
-                  saveMatrixInFile(self, nameOfFile)
+    Contains overload methods:
 
-                  getMatrix(self)
-                  getNumberOfRows(self)
-                  getNumberOfColumns(self)
-                  getRow(self, row)
-                  getColumn(self, column)
-                  getElement(self, row, column)
+      __init__(self, **kwargs)
+      __setattr__(self, attr, value)
+      __getitem__(self, row)
+      __setitem__(self, row)
+      __delitem__(self, row)
+      __str__(self)
+      __iter__(self)
+      __add__(self, other, needToReturn=True), __radd__(self, other, needToReturn=True), __iadd__(self, other, needToReturn=True)
+      __sub__(self, other, needToReturn=True), __rsub__(self, other, needToReturn=True), __isub__(self, other, needToReturn=True)
+      __mul__(self, other, needToReturn=True), __rmul__(self, other, needToReturn=True), __imul__(self, other, needToReturn=True)
+     and other methods:
 
-                  setRow(self, row, value)
-                  setColumn(self, column, value)
-                  setElement(self, row, column, value)
+    static:
+      createMatrix(matrix)
+      createZeroMatrix(rows, columns)
+      readMatrixFromFile(nameOfFile)
 
-                  deleteRow(self, row)
-                  deleteColumn(self, column)
+    others:
+      saveMatrixInFile(self, nameOfFile)
 
-                  swapRows(self, firstRow, secondRow)
-                  swapColumns(self, firstColumn, secondColumn)
-                  mulRowWithNumber(self, row, number)
-                  mulColumnWithNumber(self, column, number)
-                  mulRowWithNumberAndSumWithAnotherRow(self, rowForMul, number, rowForSum)
-                  mulColumnWithNumberAndSumWithAnotherColumn(self, columnForMul, number, columnForSum)
-                  addZeroRow(self, row)
-                  addZeroColumn(self, column)
+      getMatrix(self)
+      getNumberOfRows(self)
+      getNumberOfColumns(self)
+      getRow(self, row)
+      getColumn(self, column)
+      getElement(self, row, column)
 
-                  addWithNumber(self, other)
-                  addWithMatrix(self, other)
+      setRow(self, row, value)
+      setColumn(self, column, value)
+      setElement(self, row, column, value)
 
-                  subWithNumber(self, other)
-                  subWithMatrix(self, other)
+      deleteRow(self, row)
+      deleteColumn(self, column)
 
-                  mulWithNumber(self, other)
-                  mulWithMatrix(self, other)
+      swapRows(self, firstRow, secondRow)
+      swapColumns(self, firstColumn, secondColumn)
+      mulRowWithNumber(self, row, number)
+      mulColumnWithNumber(self, column, number)
+      mulRowWithNumberAndSumWithAnotherRow(self, rowForMul, number, rowForSum)
+      mulColumnWithNumberAndSumWithAnotherColumn(self, columnForMul, number, columnForSum)
+      addZeroRow(self, row)
+      addZeroColumn(self, column)
 
-                  findDeterminant(self)
-                  findMinor(self, row, column)
-                  findAlgebraicComplement(self, row, column)
+      addWithNumber(self, other)
+      addWithMatrix(self, other)
 
-                  makeTransposeMatrix(self)
-                  makeAssociativeMatrix(self)
-                  makeInvertibleMatrix(self)
+      subWithNumber(self, other)
+      subWithMatrix(self, other)
+
+      mulWithNumber(self, other)
+      mulWithMatrix(self, other)
+
+      findDeterminant(self)
+      findMinor(self, row, column)
+      findAlgebraicComplement(self, row, column)
+
+      makeTransposeMatrix(self)
+      makeAssociativeMatrix(self)
+      makeInvertibleMatrix(self)
