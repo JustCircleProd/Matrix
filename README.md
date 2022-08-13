@@ -1,10 +1,14 @@
 # Matrix
 
+Designed for creating and processing matrices.
+*The subtleties of the operation of individual functions can be found in the comments to them.*
+
 This is my old course project, so the module will not be updated (uploaded just for my github).
 
-The matrix class is based on the standard list. Designed for creating and processing matrices. 
-Author: VadimKarch (JustCircle)
-        
+**Author: VadimKarch (JustCircle).**
+
+                The matrix class is based on the standard list. 
+                
                 Contains overload methods:
 
                     __init__(self, **kwargs)
