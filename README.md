@@ -1,9 +1,12 @@
-# Matrix
+## Matrix
 
 Designed for creating and processing matrices.
+This is my old course project, so the module will not be updated (uploaded just for my GitHub).
+
+If you decide to use this class, just copy the Matrix file.py and use as a module using import or the class itself and use as a regular class.
 *The subtleties of the operation of individual functions can be found in the comments to them.*
 
-This is my old course project, so the module will not be updated (uploaded just for my github).
+
 
 **Author: VadimKarch (JustCircle).**
 
@@ -72,16 +75,16 @@ This is my old course project, so the module will not be updated (uploaded just 
       makeInvertibleMatrix(self)
       
 ## License
-        Copyright 2022 Vadim Karchagin (JustCircle)
+      Copyright 2022 Vadim Karchagin (JustCircle)
 
-        Licensed under the Apache License, Version 2.0 (the "License");
-        you may not use this file except in compliance with the License.
-        You may obtain a copy of the License at
+      Licensed under the Apache License, Version 2.0 (the "License");
+      you may not use this file except in compliance with the License.
+      You may obtain a copy of the License at
 
-           http://www.apache.org/licenses/LICENSE-2.0
+         http://www.apache.org/licenses/LICENSE-2.0
 
-        Unless required by applicable law or agreed to in writing, software
-        distributed under the License is distributed on an "AS IS" BASIS,
-        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-        See the License for the specific language governing permissions and
-        limitations under the License.
+      Unless required by applicable law or agreed to in writing, software
+      distributed under the License is distributed on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+      See the License for the specific language governing permissions and
+      limitations under the License.
