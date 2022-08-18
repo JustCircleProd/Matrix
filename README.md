@@ -8,7 +8,7 @@ If you decide to use this class, just copy the Matrix file.py and use as a modul
 
 
 
-**Author: VadimKarch (JustCircle).**
+**Author: Vadim Karchagin (JustCircle).**
 
     The matrix class is based on the standard list. 
 
