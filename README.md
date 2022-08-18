@@ -1,9 +1,9 @@
 ## Matrix
 
-Designed for creating and processing matrices.
+Designed for creating and processing matrices.  
 This is my old course project, so the module will not be updated (uploaded just for my GitHub).
 
-If you decide to use this class, just copy the Matrix file.py and use as a module using import or the class itself and use as a regular class.
+If you decide to use this class, just copy the Matrix file.py and use as a module using import or the class itself and use as a regular class.  
 *The subtleties of the operation of individual functions can be found in the comments to them.*
 
 
