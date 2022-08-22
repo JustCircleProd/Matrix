@@ -1,4 +1,4 @@
-## Matrix
+# Matrix
 
 Designed for creating and processing matrices.  
 This is my old course project, so the module will not be updated (uploaded just for my GitHub).
