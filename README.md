@@ -1,4 +1,4 @@
-# Matrix
+# Matrix🕸
 
 Designed for creating and processing matrices.  
 This is my old course project, so the module will not be updated (uploaded just for my GitHub).
@@ -75,7 +75,7 @@ If you decide to use this class, just copy the Matrix file.py and use as a modul
       makeInvertibleMatrix(self)
       
 ## License
-      Copyright 2022 JustCircle Prod.
+      Copyright 2022 JustCircle Prod. (Vadim Karchagin)
 
       Licensed under the Apache License, Version 2.0 (the "License");
       you may not use this file except in compliance with the License.
